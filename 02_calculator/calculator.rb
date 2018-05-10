@@ -37,3 +37,16 @@ def factorial(num)
   end
   res
 end
+
+def factorial2(num2)
+  res = num2
+  while num2 > 1
+    num2 -=1
+    res *= num2
+  end
+  if res == 0
+    res = 1
+  end
+  res
+end
+#adding as git test
